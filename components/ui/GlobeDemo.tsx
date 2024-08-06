@@ -399,10 +399,8 @@ export function GlobeDemo() {
     for (let i = 0; i < numArcs; i++) {
         const startLat = 0;
         const endLat = 0;
-
         const startLng = i * (360 / numArcs);
         const endLng = (i + 1) * (360 / numArcs);
-
         const arcAlt = 0.15
 
         circleArcs.push({
